@@ -1,11 +1,11 @@
-package exercise;
+package controlstatement;
 
 import java.util.Scanner;
 
 public class Fibonacci {
 
     /**
-     * Hàm main
+     * HÃ m main
      * @param args
      */
     public static void main(String[] args) {
@@ -16,13 +16,13 @@ public class Fibonacci {
         System.out.println("Nhập một số bất kỳ: ");
         int n = new Scanner(System.in).nextInt();
         
-        // Kiểm tra xem giá trị nhập vào có phải số dương không
+        // Kiểm tra xem giá trị nhập vào có phải là số dương không
         
-        // Nếu n < 0 thì thông báo lỗi
+        // Nếu n <= 0 thì thông báo lỗi
         if (n <= 0) {
             System.out.println("Nhập sai.");
         }
-        // nếu n > 0 thì thực hiện tính toán
+        // Nếu n > 0 thì thực hiện tính toán
         else {
             System.out.print("Dãy Fibonacci: ");
             for (int i = 0; i < n; i++) {
