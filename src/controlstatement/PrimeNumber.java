@@ -3,7 +3,7 @@ package controlstatement;
 import java.util.Scanner;
 
 public class PrimeNumber {
-
+    
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         int dem = 0;

@@ -3,11 +3,7 @@ package controlstatement;
 import java.util.Scanner;
 
 public class Fibonacci {
-
-    /**
-     * HÃ m main
-     * @param args
-     */
+    
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         int f0 = 1;

@@ -3,7 +3,7 @@ package controlstatement;
 import java.util.Scanner;
 
 public class PerfectNumber {
-
+    
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         System.out.print("Nhập một số bất kỳ: ");
